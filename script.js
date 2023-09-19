@@ -20,7 +20,7 @@ function division(a,b){
     return a/b;
 
 }
-add.checK=()=>{
+add.onclickK=()=>{
     let value1=parseInt(NUMM1.value);
    let value2=parseInt(num2.value);
    if(!isNaN(value1)&&!isNaN(value2))
@@ -28,11 +28,11 @@ add.checK=()=>{
    let result=addition(value1,value2);
       resu.innerText=result;
 }
-else{
+else {
     resu.innerText="0";
 }
 
-sub.ckeck=()=>{
+sub.onclick=()=>{
     let value1=parseInt(NUM1.value);
    let value2=parseInt(NUM2.value);
    if(!isNaN(value1)&&!isNaN(value2))
@@ -44,7 +44,7 @@ sub.ckeck=()=>{
     resu.innerText="0";
 }
    
-   mul.ckeck=()=>{
+   mul.onclick=()=>{
     let value1=parseInt(NUM1.value);
    let value2=parseInt(NUM2.value);
    if(!isNaN(value1)&&!isNaN(value2)) 
@@ -56,7 +56,7 @@ sub.ckeck=()=>{
     resu.innerText="0";
 }
    
-   divi.ckeck=()=>{
+   divi.onclick=()=>{
     let value1=parseInt(NUM1.value);
    let value2=parseInt(NUM2.value);
    if(!isNaN(value1)&&!isNaN(value2))

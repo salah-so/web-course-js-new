@@ -1,0 +1,58 @@
+body{
+    background:image url("calculator img.png");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    color: rgb(9, 244, 25);
+    size: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+h2 {
+    color: rgb(246, 250, 7);
+    font-size:large;
+    font-style: italic;
+    font-weight: bold;
+}
+#canvas {
+    background: rgb(89, 89, 237);
+     width: 600px; 
+     display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+}
+#input{
+ 
+}
+#num12{
+   width: 200px;
+   color:rgb(217, 250, 5);
+}
+.buton{
+    margin: 6px;
+     width:70px; 
+     height: 20px; 
+      border-radius:50px; 
+     border: none; 
+     cursor:pointer;
+     font-size:20px;
+     color: red;
+ 
+}
+
+#add { background-color: greenyellow;
+   font-style: italic;
+border-radius:10px;
+}
+#good{
+    background-color: yellow;
+    box-shadow: 5px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+}
